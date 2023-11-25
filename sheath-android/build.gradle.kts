@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ki960213.sheath"
+    namespace = "com.ki960213.sheathAndroid"
     compileSdk = 34
 
     defaultConfig {
