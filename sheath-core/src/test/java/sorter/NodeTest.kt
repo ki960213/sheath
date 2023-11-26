@@ -1,9 +1,9 @@
 package sorter
 
 import com.google.common.truth.Truth.assertThat
-import com.ki960213.sheathCore.annotation.Component
-import com.ki960213.sheathCore.component.ClassSheathComponent
-import com.ki960213.sheathCore.sorter.Node
+import com.ki960213.sheathcore.annotation.Component
+import com.ki960213.sheathcore.component.ClassSheathComponent
+import com.ki960213.sheathcore.sorter.Node
 import org.junit.Test
 
 internal class NodeTest {

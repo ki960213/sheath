@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ki960213.sampleApp.R
 import com.ki960213.sampleApp.databinding.ActivityMainBinding
 import com.ki960213.sampleApp.ui.cart.CartActivity
-import com.ki960213.sheathAndroid.extention.viewModels
+import com.ki960213.sheathandroid.extention.viewModels
 
 class MainActivity : AppCompatActivity() {
 

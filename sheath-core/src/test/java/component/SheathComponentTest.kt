@@ -2,9 +2,9 @@ package component
 
 import com.google.common.truth.Expect
 import com.google.common.truth.Truth.assertThat
-import com.ki960213.sheathCore.annotation.Component
-import com.ki960213.sheathCore.annotation.Inject
-import com.ki960213.sheathCore.component.ClassSheathComponent
+import com.ki960213.sheathcore.annotation.Component
+import com.ki960213.sheathcore.annotation.Inject
+import com.ki960213.sheathcore.component.ClassSheathComponent
 import org.junit.Rule
 import org.junit.Test
 import kotlin.reflect.full.createType

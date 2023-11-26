@@ -3,6 +3,7 @@ plugins {
     id("kotlin-android")
     id("kotlin-kapt")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -57,7 +58,9 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.0")
     // Glide
     implementation("com.github.bumptech.glide:glide:4.15.1")
+    implementation(project(":sheath-core"))
     // Sheath
     implementation(project(":sheath-android"))
-    implementation(project(":sheath-core"))
 }
+
+group = "com.github.ki960213"

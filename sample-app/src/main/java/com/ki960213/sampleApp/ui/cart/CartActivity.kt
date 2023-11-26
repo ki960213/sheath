@@ -5,8 +5,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.ki960213.sampleApp.R
 import com.ki960213.sampleApp.databinding.ActivityCartBinding
-import com.ki960213.sheathAndroid.extention.inject
-import com.ki960213.sheathAndroid.extention.viewModels
+import com.ki960213.sheathandroid.extention.inject
+import com.ki960213.sheathandroid.extention.viewModels
 
 class CartActivity : AppCompatActivity() {
 

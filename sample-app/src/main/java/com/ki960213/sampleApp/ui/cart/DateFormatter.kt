@@ -4,8 +4,8 @@ import android.content.Context
 import android.icu.text.SimpleDateFormat
 import android.icu.util.Calendar
 import com.ki960213.sampleApp.R
-import com.ki960213.sheathCore.annotation.Component
-import com.ki960213.sheathCore.annotation.Prototype
+import com.ki960213.sheathcore.annotation.Component
+import com.ki960213.sheathcore.annotation.Prototype
 import java.time.LocalDateTime
 import java.util.Locale
 

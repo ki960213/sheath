@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -15,9 +16,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
 }
 
 dependencies {
@@ -26,4 +24,17 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     // Reflection
     implementation(kotlin("reflect"))
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                from(components["release"])
+                groupId = "com.github.ki960213"
+                artifactId = "sheath-android"
+                version = "1.0.0"
+            }
+        }
+    }
 }

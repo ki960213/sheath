@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.ki960213.sampleApp.data.InMemory
 import com.ki960213.sampleApp.model.CartProduct
 import com.ki960213.sampleApp.repository.CartRepository
-import com.ki960213.sheathCore.annotation.SheathViewModel
+import com.ki960213.sheathcore.annotation.SheathViewModel
 import kotlinx.coroutines.launch
 
 @SheathViewModel

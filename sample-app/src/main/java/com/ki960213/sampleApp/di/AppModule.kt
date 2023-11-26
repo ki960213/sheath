@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.ki960213.sampleApp.data.CartProductDao
 import com.ki960213.sampleApp.data.ShoppingDatabase
-import com.ki960213.sheathCore.annotation.Component
-import com.ki960213.sheathCore.annotation.Module
+import com.ki960213.sheathcore.annotation.Component
+import com.ki960213.sheathcore.annotation.Module
 
 @Module
 object AppModule {

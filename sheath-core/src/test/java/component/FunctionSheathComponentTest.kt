@@ -1,10 +1,10 @@
 package component
 
 import com.google.common.truth.Truth.assertThat
-import com.ki960213.sheathCore.annotation.Component
-import com.ki960213.sheathCore.annotation.Module
-import com.ki960213.sheathCore.annotation.Prototype
-import com.ki960213.sheathCore.component.FunctionSheathComponent
+import com.ki960213.sheathcore.annotation.Component
+import com.ki960213.sheathcore.annotation.Module
+import com.ki960213.sheathcore.annotation.Prototype
+import com.ki960213.sheathcore.component.FunctionSheathComponent
 import org.junit.Test
 import kotlin.reflect.full.createType
 

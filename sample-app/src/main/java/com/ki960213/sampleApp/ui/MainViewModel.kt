@@ -8,9 +8,9 @@ import com.ki960213.sampleApp.data.InMemory
 import com.ki960213.sampleApp.model.Product
 import com.ki960213.sampleApp.repository.CartRepository
 import com.ki960213.sampleApp.repository.ProductRepository
-import com.ki960213.sheathCore.annotation.Inject
-import com.ki960213.sheathCore.annotation.NewInstance
-import com.ki960213.sheathCore.annotation.SheathViewModel
+import com.ki960213.sheathcore.annotation.Inject
+import com.ki960213.sheathcore.annotation.NewInstance
+import com.ki960213.sheathcore.annotation.SheathViewModel
 import kotlinx.coroutines.launch
 
 @SheathViewModel
