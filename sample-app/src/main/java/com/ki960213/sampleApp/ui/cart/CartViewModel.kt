@@ -4,10 +4,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.github.ki960213.sheathcore.annotation.SheathViewModel
 import com.ki960213.sampleApp.data.InMemory
 import com.ki960213.sampleApp.model.CartProduct
 import com.ki960213.sampleApp.repository.CartRepository
-import com.ki960213.sheathCore.annotation.SheathViewModel
 import kotlinx.coroutines.launch
 
 @SheathViewModel

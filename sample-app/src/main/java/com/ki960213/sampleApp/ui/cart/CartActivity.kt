@@ -3,10 +3,10 @@ package com.ki960213.sampleApp.ui.cart
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.github.ki960213.sheathandroid.extention.inject
+import com.github.ki960213.sheathandroid.extention.viewModels
 import com.ki960213.sampleApp.R
 import com.ki960213.sampleApp.databinding.ActivityCartBinding
-import com.ki960213.sheathAndroid.extention.inject
-import com.ki960213.sheathAndroid.extention.viewModels
 
 class CartActivity : AppCompatActivity() {
 

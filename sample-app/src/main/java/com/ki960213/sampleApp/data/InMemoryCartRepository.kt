@@ -1,10 +1,10 @@
 package com.ki960213.sampleApp.data
 
+import com.github.ki960213.sheathcore.annotation.Qualifier
+import com.github.ki960213.sheathcore.annotation.Repository
 import com.ki960213.sampleApp.model.CartProduct
 import com.ki960213.sampleApp.model.Product
 import com.ki960213.sampleApp.repository.CartRepository
-import com.ki960213.sheathCore.annotation.Qualifier
-import com.ki960213.sheathCore.annotation.Repository
 import java.time.LocalDateTime
 
 @Qualifier

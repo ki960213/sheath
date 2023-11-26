@@ -1,4 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
 rootProject.name = "sheath"
-include(":sheath-core")
-include(":sheath-android")
+include(":sheathcore")
+include(":sheathandroid")
 include(":sample-app")
