@@ -20,3 +20,5 @@ dependencies {
 tasks.jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
+
+group = "com.github.ki960213"

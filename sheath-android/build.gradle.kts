@@ -27,3 +27,5 @@ dependencies {
     // Reflection
     implementation(kotlin("reflect"))
 }
+
+group = "com.github.ki960213"
