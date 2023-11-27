@@ -1,5 +1,34 @@
 Sheath는 Android 전용 기능이 추가된 코틀린 전용 종속 항목 삽입 라이브러리입니다. Hilt와 Koin의 사용성을 보완하고자 만들어 졌습니다.
 
+## 의존성 추가
+
+먼저 `maven { url "https://jitpack.io" }` 저장소를 프로젝트의 루트 `build.gradle` 파일에 추가합니다.
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+그런 다음, `app/build.gradle` 파일에 다음 의존성을 추가합니다.
+```gradle
+plugins {
+  id 'kotlin-kapt'
+}
+
+android {
+  ...
+}
+
+dependencies {
+  implementation "com.github.ki960213:sheath:1.0.2"
+  kapt "com.github.ki960213:sheath:1.0.2"
+}
+```
+> **참고** sheath의 최신 버전은 오른쪽 releases에서 확인하실 수 있습니다.
+
 ## Sheath 애플리케이션 클래스
 
 Sheath를 사용하는 모든 앱은 `SheathApplication.run(applicationContext)` 명령어를 실행하여 Sheath 애플리케이션을 시작해야 합니다.
