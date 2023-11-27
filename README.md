@@ -27,7 +27,7 @@ dependencies {
   kapt "com.github.ki960213:sheath:1.0.2"
 }
 ```
-> **참고** sheath의 최신 버전은 오른쪽 releases에서 확인하실 수 있습니다.
+> **참고** sheath의 최신 버전은 해당 페이지 오른쪽 위의 releases에서 확인하실 수 있습니다.
 
 ## Sheath 애플리케이션 클래스
 
